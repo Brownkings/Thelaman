@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maintenance & Cleaning - Thelaman Holdings</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .service-detail {
+    padding: 120px 0 80px;
+    background: #f8f9fa;
+}
+
+.service-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.service-header h1 {
+    font-size: 2.5rem;
+    color: #1976D2;
+    margin-bottom: 1rem;
+}
+
+.service-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+    margin-bottom: 4rem;
+}
+
+.service-info h2 {
+    color: #1976D2;
+    margin-bottom: 1.5rem;
+}
+
+.service-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.service-info li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.service-info li:before {
+    content: "✓";
+    color: #1976D2;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.service-image {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.service-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Improved Back Button */
+.back-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #1976D2;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+    min-height: 50px;
+    min-width: 150px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border: 2px solid transparent;
+}
+
+.back-btn:hover {
+    background: #1565C0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.back-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(25, 118, 210, 0.2);
+}
+
+/* Improved CTA Button */
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #424242;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    min-height: 50px;
+    min-width: 180px;
+    border: 2px solid transparent;
+    margin-top: 1rem;
+}
+
+.cta-button:hover {
+    background: #616161;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+    .service-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .service-header h1 {
+        font-size: 2rem;
+    }
+    
+    /* Mobile touch improvements */
+    .back-btn {
+        padding: 18px 24px;
+        min-height: 54px;
+        min-width: 140px;
+        font-size: 1.05rem;
+        margin-bottom: 1.5rem;
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    .cta-button {
+        padding: 18px 24px;
+        min-height: 54px;
+        width: 100%;
+        max-width: 280px;
+        font-size: 1.05rem;
+    }
+    
+    .service-detail .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="attached_assets/generated_images/Thelaman_Holdings_construction_logo_13b87d02.png" alt="Thelaman Holdings Logo" class="logo-img">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="/index.html#home" class="nav-link">Home</a></li>
+                <li><a href="/index.html#services" class="nav-link">Services</a></li>
+                <li><a href="/index.html#about" class="nav-link">About</a></li>
+                <li><a href="/index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Service Detail -->
+    <section class="service-detail">
+        <div class="container">
+            <a href="/index.html#services" class="back-btn">← Back to Services</a>
+            
+            <div class="service-header">
+                <h1>Maintenance & Cleaning</h1>
+                <p>Professional maintenance and cleaning services for construction sites and facilities</p>
+            </div>
+            
+            <div class="service-content">
+                <div class="service-info">
+                    <h2>What We Offer</h2>
+                    <p>Our maintenance and cleaning services ensure your construction sites and facilities remain safe, clean, and compliant with health and safety regulations. We provide comprehensive solutions for ongoing maintenance needs.</p>
+                    
+                    <h2>Our Services Include:</h2>
+                    <ul>
+                        <li>Construction site cleaning</li>
+                        <li>Post-construction cleanup</li>
+                        <li>Industrial facility maintenance</li>
+                        <li>Pressure washing and exterior cleaning</li>
+                        <li>Waste removal and disposal</li>
+                        <li>Window cleaning services</li>
+                        <li>Floor cleaning and maintenance</li>
+                        <li>Equipment cleaning and maintenance</li>
+                        <li>Sanitization and disinfection</li>
+                        <li>Emergency cleanup services</li>
+                        <li>Regular maintenance schedules</li>
+                        <li>Health and safety compliance cleaning</li>
+                    </ul>
+                    
+                    <h2>Why Choose Us?</h2>
+                    <ul>
+                        <li>Professional cleaning teams</li>
+                        <li>Industrial-grade equipment</li>
+                        <li>Eco-friendly cleaning products</li>
+                        <li>Flexible scheduling options</li>
+                        <li>Emergency response service</li>
+                        <li>Competitive pricing</li>
+                        <li>Insurance and liability coverage</li>
+                        <li>Quality assurance standards</li>
+                        <li>Regular service monitoring</li>
+                        <li>Health and safety compliance</li>
+                    </ul>
+                </div>
+                
+                <div class="service-image">
+                    <img src="attached_assets/stock_images/industrial_cleaning__9cdec6f8.jpg" alt="Industrial Cleaning and Maintenance">
+                </div>
+            </div>
+            
+            <div style="text-align: center; background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+                <h2>Need Maintenance Services?</h2>
+                <p>Contact us today for a customized maintenance and cleaning solution</p>
+                <a href="index.html#contact" class="cta-button">Schedule Service</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2025 Thelaman Holdings. All rights reserved.</p>
+                </div>
+                <div class="social-media">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com/thelamanholdings" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <span class="social-icon">📘</span>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://instagram.com/thelamanholdings" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <span class="social-icon">📷</span>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://linkedin.com/company/thelaman-holdings" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <span class="social-icon">💼</span>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
